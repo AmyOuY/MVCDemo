@@ -1,5 +1,5 @@
 ﻿using MVCapp.Models;
-using static MVCData.BusinessLogic.StudentProcessor;
+using MVCData.Library.BusinessLogic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,7 +37,7 @@ namespace MVCapp.Controllers
         {
             ViewBag.Message = "Students List";
 
-            var data = LoadStudents();
+            var data = StudentProcessor.LoadStudents();
             List<StudentModel> students = new List<StudentModel>();
 
             foreach (var row in data)
