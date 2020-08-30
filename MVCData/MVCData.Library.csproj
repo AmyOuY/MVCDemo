@@ -7,8 +7,8 @@
     <ProjectGuid>{52F196C3-1108-47B8-AE6D-1BF3038C798F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MVCData</RootNamespace>
-    <AssemblyName>MVCData</AssemblyName>
+    <RootNamespace>MVCData.Library</RootNamespace>
+    <AssemblyName>MVCData.Library</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
