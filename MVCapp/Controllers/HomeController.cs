@@ -68,7 +68,7 @@ namespace MVCapp.Controllers
         {
             if (ModelState.IsValid)
             {
-                CreateStudent(model.StudentId, model.FirstName, model.LastName, model.Email);
+                StudentProcessor.CreateStudent(model.StudentId, model.FirstName, model.LastName, model.Email);
 
                 return RedirectToAction("Index");
             }
