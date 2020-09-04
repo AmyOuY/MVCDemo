@@ -1,4 +1,4 @@
-# ASP.NET MVC Demo
+# ASP.NET MVC Demo (.NET Framework)
 <h3> Use a simple student model to demonstrate the following functions of MVC: </h3>
 <ul>
   <li> Local authentication and authorization of MVC </li>
